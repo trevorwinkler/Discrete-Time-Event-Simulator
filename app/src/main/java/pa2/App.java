@@ -189,12 +189,12 @@ class App {
         //double averageDiskQueueLength = totalDiskQueueLength / lastEventTime;
 
         System.out.println("-----------------------------------------");
-        System.out.println("Average Turnaround Time: " + averageTurnaroundTime); //correct
-        System.out.println("Average Throughput: " + averageThroughput); //correct
-        System.out.println("CPU Utilization: " + averageCpuUtilization); //correct
-        //System.out.println("Disk Utilization: " + averageDiskUtilization); //correct
-        System.out.println("Average Number of Processes in Cpu Queue: " + averageCpuQueueLength); //incorrect and cannot figure out why
-        //System.out.println("Average Number of Processes in Disk Queue " + averageDiskQueueLength); //incorrect and cannot figure out why
+        System.out.println("Average Turnaround Time: " + averageTurnaroundTime);
+        System.out.println("Average Throughput: " + averageThroughput); 
+        System.out.println("CPU Utilization: " + averageCpuUtilization); 
+        //System.out.println("Disk Utilization: " + averageDiskUtilization); 
+        System.out.println("Average Number of Processes in Cpu Queue: " + averageCpuQueueLength); 
+        //System.out.println("Average Number of Processes in Disk Queue " + averageDiskQueueLength); 
         System.out.println("-----------------------------------------");
     }
     
